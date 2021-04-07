@@ -2,6 +2,9 @@
 
 Navigate with ripple animation effect
 
+
+https://user-images.githubusercontent.com/26159899/113919912-ca79fb80-97ec-11eb-9d56-cc2867d83620.MP4
+
 # Usage
 
     import 'package:ripple_navigation/ripple_navigation.dart';
