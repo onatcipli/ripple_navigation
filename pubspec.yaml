@@ -1,6 +1,7 @@
 name: ripple_navigation
 description: Navigate with ripple animation effect
 version: 1.0.1
+homepage: https://github.com/onatcipli/ripple_navigation
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
