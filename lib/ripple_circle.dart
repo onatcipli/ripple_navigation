@@ -40,8 +40,10 @@ class RippleCircleState extends State<RippleCircle>
   }
 
   reverseAnimate() {
+    sizeAnimationController.forward(from: 1);
+    opacityAnimationController.forward(from: 1);
     sizeAnimationController.reverse();
-    opacityAnimationController.reverse();
+    // opacityAnimationController.reverse();
   }
 
   @override

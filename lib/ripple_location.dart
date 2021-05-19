@@ -37,6 +37,16 @@ class RippleLocationState extends State<RippleLocation> {
     );
   }
 
+  pushRippleTransitionWithRouteName(BuildContext context,
+      {String route, dynamic arguments}) {
+    forwardRipple();
+    Navigator.pushNamed(
+      context,
+      route,
+      arguments: arguments,
+    );
+  }
+
   /// this method for only animating Ripple effect from the [RippleLocation] widget
   forwardRipple() async {
     rippleController.currentState.animate();
